@@ -1,0 +1,134 @@
+/*
+Theme Name: JohnFennellyCleaningchild
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: johnfennellycleaning
+
+This is the child theme for johnfennellycleaning theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+/*Contact Form Css */
+#wpcf7-f165-o1 .form-check {
+    padding-left: 0;
+}
+#wpcf7-f165-o1 .form-check .wpcf7-list-item {
+    margin: 0 0 0 0em;
+}
+#wpcf7-f165-o1 .form-check .wpcf7-list-item input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+}
+#wpcf7-f165-o1 .form-check .wpcf7-list-item  label {
+    display: flex;
+    align-items: center;
+}
+
+#wpcf7-f165-o1 .form-check .wpcf7-list-item input[type="checkbox"]:hover {
+  -webkit-appearance: auto!important;
+  appearance: auto!important;
+}
+#wpcf7-f165-o1 form.wpcf7-form.init {
+    padding-bottom: 30px;
+}
+#wpcf7-f165-o1 form.wpcf7-form.init p button.pbmit-btn {
+    padding: 18px 45px;
+}
+#wpcf7-f165-o1 form.wpcf7-form.init p input.wpcf7-form-control.wpcf7-submit.has-spinner.pbmit-btn {
+    border: 2px solid #001837;
+   padding: 15px 45px;
+}
+#wpcf7-f165-o1 form.wpcf7-form.init p input.wpcf7-form-control.wpcf7-submit.has-spinner.pbmit-btn:hover{
+border-color:#599cd0;
+}
+button.pbmit-btn input.wpcf7-form-control.wpcf7-submit.has-spinner.sub-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    opacity: 0;
+}
+
+.contact-form-rightbox form button span.wpcf7-spinner, .contact-form-rightbox form button br {
+    display: none !important;
+}
+
+/*404 Page*/
+#notfound {
+    position: relative;
+    height: 100vh;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 767px;
+    width: 100%;
+    line-height: 1.4;
+    padding: 0px 15px;
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 25px;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 186px;
+    font-weight: 900;
+    margin: 0px;
+    text-transform: uppercase;
+    background: url('/wp-content/uploads/2025/01/text.png');
+    -webkit-background-clip: text;
+   
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .notfound h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .notfound p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+  .error404 a.pbmit-btn {
+    margin-top: 20px;
+ 
+}
+  
+  
+  .notfound a:hover {
+    opacity: 0.8;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .notfound .notfound-404 {
+      height: 110px;
+      line-height: 110px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 120px;
+    }
+  }
+  
